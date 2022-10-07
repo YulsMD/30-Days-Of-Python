@@ -33,8 +33,8 @@ print(type((9.8, 3.14, 2.7)))    # Tuple
 # Excercise: level 3
 import math
 
-int_p = 4
-int_q = 2.5
+int_p = 10
+int_q = 8
 int_distance = math.sqrt((int_p - int_q)**2)
 
 print(int_distance)
