@@ -29,13 +29,20 @@ remainder = num_two % num_one
 exp = num_one ** num_two
 floor_division = num_one // num_two
 
+# Printing values with label
+print('total: ', total)
+print('difference: ', diff)
+print('product: ', product)
+print('division: ', division)
+print('remainder: ', remainder)
+
 import math
 radius = 30
 area_of_circle = math.pi * (radius ** 2)
 circum_of_circle = 2 * math.pi * radius
 
-print('Insert an area')
-radius_input = float((input()))
+
+radius_input = float((input("Insert an area: ")))
 area_of_circle_input = math.pi * (radius_input ** 2)
 print(f"The area is, {area_of_circle_input}")
 
